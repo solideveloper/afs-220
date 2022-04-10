@@ -1,0 +1,82 @@
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  position: fixed;
+  top: 0;
+  right:0;
+  left: 0;
+}
+  
+  /* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  
+  
+}
+.navbar .logo {
+  float: left;
+  text-decoration: none;
+  padding: 15px;
+  
+}
+#announcements {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 990;
+  color: red;
+  margin-top:30px;
+}
+
+
+.sale{
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-family: 'Inspiration', cursive;
+  font-size: 18px;
+  text-shadow: 2px 2px #444;
+}
+.navitems {
+  text-transform: uppercase;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 10px;
+}
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover{
+  background-color: darkred;
+  text-shadow: 2px 2px #444;
+  padding: 15px;
+  transition: padding .2s;
+}
+
+.navbar h1 {
+  font-family: 'Inspiration', cursive;
+  color: #fff;
+  font-size: 54px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 14px;
+}
+
+
+  
+
+
+  
+ 
+  
+
+  

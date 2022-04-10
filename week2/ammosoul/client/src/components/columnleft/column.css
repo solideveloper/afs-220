@@ -1,0 +1,25 @@
+.Container{
+    display: flex;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .shopsize, .shopflavor {
+    background-color: darkred;
+    color:#fff;
+  }
+
+  .titletop {
+      color: black;
+      font-size: 32px;
+      padding-bottom: 16px;
+      font-family: 'Alegreya Sans SC', sans-serif;
+      letter-spacing: 3px;
+      
+     
+  }
+  span {
+    font-family: 'Inspiration', cursive;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+  }
