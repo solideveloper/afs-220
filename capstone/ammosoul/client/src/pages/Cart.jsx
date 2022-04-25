@@ -9,6 +9,7 @@ import StripeCheckout from "react-stripe-checkout";
 import { useEffect, useState } from "react";
 import { userRequest } from "../requestMethods";
 import { useNavigate } from "react-router";
+import {Link} from "react-router-dom"
 
 const STRIPE_KEY = process.env.REACT_APP_STRIPE;
 
@@ -41,6 +42,11 @@ const TopButton = styled.button`
     props.type === "filled" ? "black" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
 `;
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: 'black'
+};
 
 const TopTexts = styled.div`
   ${mobile({ display: "none" })}
@@ -189,7 +195,12 @@ const Cart = () => {
       <Wrapper>
         <Title>YOUR BAG</Title>
         <Top>
-          <TopButton>CONTINUE SHOPPING</TopButton>
+          <TopButton>  <Link to="/products" style={linkStyle}>
+            Continue Shopping
+          </Link></TopButton>
+
+
+          
           <TopTexts>
             <TopText>Shopping Bag(2)</TopText>
             <TopText>Your Wishlist (0)</TopText>

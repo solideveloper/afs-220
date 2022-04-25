@@ -11,10 +11,15 @@ const Container = styled.div`
   justify-content: space-between;
   ${mobile({ padding: "0px", flexDirection:"column" })}
   `
+const Heading = styled.div`
+color: darkred;
+text-decoration: underline;
+font-size:20px;`
 
 const Categories = () => {
   return (
     <Container>
+    <Heading >Sizes & Flavors</Heading>
       {categories.map((item) => (
         <CategoryItem item={item} key={item.id} />
       ))}

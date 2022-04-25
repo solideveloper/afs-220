@@ -6,9 +6,10 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   flex: 1;
-  margin: 3px;
-  height: 40vh;
+  margin: 10px;
+  height: 20vh;
   position: relative;
+  border: 5px darkred solid;
 `;
 
 const Image = styled.img`
