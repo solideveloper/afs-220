@@ -64,7 +64,7 @@ const ImgContainer = styled.div`
 const Image = styled.img`
   height: 80%;
   width: 100%;
-  margin-top: 20%;
+  margin-top: 10%;
   border: 15px solid darkred ;
 `;
 
